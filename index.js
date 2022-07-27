@@ -19,4 +19,7 @@ if (randomNumber1 > randomNumber2) {
   }
 }
 
+if (performance.getEntriesByType("navigation")[0].type === "reload") {
+  rollDice();
+}
 
